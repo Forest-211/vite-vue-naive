@@ -78,7 +78,7 @@ import {
     // NLog,
     // NMention,
     // NMenu,
-    // NMessageProvider,
+    NMessageProvider,
     // NModal,
     // NNotificationProvider,
     // NOl,
@@ -213,7 +213,7 @@ const components = [
     // NLog,
     // NMention,
     // NMenu,
-    // NMessageProvider,
+    NMessageProvider,
     // NModal,
     // NNotificationProvider,
     // NOl,
@@ -270,6 +270,8 @@ const components = [
 ]
 
 const plugins = [useNotification, useMessage]
+
+// window.message = useMessage()
 
 export default {
     install: (app: App) => {

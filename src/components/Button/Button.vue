@@ -1,5 +1,5 @@
 <template>
-    <n-button @click="handleClick">n-button</n-button>
+    <n-button @click="handleClick">lin-button</n-button>
 </template>
 
 <script lang="ts">
